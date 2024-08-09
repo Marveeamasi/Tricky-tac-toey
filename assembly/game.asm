@@ -94,8 +94,8 @@ jmp main_loop
 
 change_player:
 
-mov rsi, player
-xor byte[rsi], 1  ; more like an XOR swap :)
+mov si, player
+xor byte[si], 1  ; more like an XOR swap :)
 
 ret
 
